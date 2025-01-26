@@ -1,0 +1,4 @@
+python-dotenv==1.0.1
+black==24.10.0
+isort[colors]==5.13.2
+flake8-pyproject==1.2.3

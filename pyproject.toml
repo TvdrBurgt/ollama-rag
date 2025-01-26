@@ -5,3 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+
+[tool.flake8]
+max-line-length = 100
+exclude = ['build', '.venv', '**/__init__.py']
+ignore = ['W504', 'F407', 'W503', 'E203']
+select = ['B', 'C', 'E', 'F', 'W', 'T4', 'B9']
